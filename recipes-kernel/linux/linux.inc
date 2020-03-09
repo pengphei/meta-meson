@@ -128,4 +128,5 @@ do_install_append() {
 }
 
 PACKAGES =+ "kernel-headers"
+DEPENDS =+ "popt rsync-native"
 FILES_kernel-headers = "${exec_prefix}/src/linux*"
